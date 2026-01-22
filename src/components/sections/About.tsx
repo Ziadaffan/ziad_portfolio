@@ -57,18 +57,14 @@ export const About = () => {
             </div>
 
             <div className="md:col-span-2 flex items-center justify-center">
-              <div className="relative">
-                <div className="w-48 h-48 md:w-56 md:h-56 rounded-2xl bg-primary/10 border-2 border-primary/20 flex items-center justify-center">
-                  <div className="text-6xl md:text-7xl font-bold gradient-text">
-                    <img
-                      src="/image.jpg"
-                      alt={t("about.imageAlt")}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="absolute -bottom-3 -right-3 w-full h-full rounded-2xl border-2 border-primary/30 -z-10" />
+              <div className="w-[230px] h-[300px] rounded-2xl bg-primary/10 border-2 border-primary/20 flex items-center justify-center overflow-hidden">
+                <img
+                  src="/image.jpg"
+                  alt={t("about.imageAlt")}
+                  className="w-full h-full object-cover"
+                />
               </div>
+
             </div>
           </div>
 
