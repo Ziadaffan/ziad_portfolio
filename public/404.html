@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex" />
+    <script type="text/javascript">
+      // GitHub Pages SPA redirect:
+      // When a user refreshes /some/path, GitHub Pages returns 404.html.
+      // We redirect to /?p=/some/path so index.html can restore the route.
+      (function () {
+        var path = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+
+        // Keep querystring without leading '?'
+        var q = search ? search.slice(1) : "";
+
+        // Always redirect to the site root of the current base (the first path segment for project pages).
+        // Example: /my-repo/anything -> /my-repo/?p=/my-repo/anything
+        var parts = path.split("/").filter(Boolean);
+        var isProjectPages = parts.length > 0;
+        var base = isProjectPages ? "/" + parts[0] + "/" : "/";
+
+        var target = base + "?p=" + encodeURIComponent(path) + (q ? "&q=" + encodeURIComponent(q) : "") + hash;
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+
