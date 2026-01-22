@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "about": "À propos",
+    "experience": "Expérience",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "language": {
+    "en": "EN",
+    "fr": "FR",
+    "switch": "Changer de langue"
+  },
+  "hero": {
+    "intro": "Bonjour, je m'appelle",
+    "rolePrefix": "Je suis",
+    "typewriterWords": ["Analyste‑développeur", "Développeur full‑stack", "Résolveur de problèmes"],
+    "summary": "Je construis des applications web robustes avec des technologies modernes.\nSpécialisé en Next.js, React, TypeScript et déploiement cloud.",
+    "location": "Québec, Canada",
+    "cta": {
+      "viewWork": "Voir mes projets",
+      "contactMe": "Me contacter",
+      "scroll": "Défiler",
+      "scrollToAbout": "Aller à la section À propos"
+    }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "p1": "Je suis un <1>analyste‑développeur</1> passionné basé à Québec, avec une expertise dans la création d’applications web modernes. Mon parcours en développement logiciel m’a amené à occuper plusieurs rôles, des systèmes backend aux solutions full‑stack.",
+    "p2": "Actuellement, je me spécialise en <1>Next.js</1>, <3>React</3>, <5>TypeScript</5> et <7>Node.js</7>, avec un fort accent sur le déploiement cloud avec AWS. J’aime résoudre des problèmes complexes et construire des solutions qui ont un impact réel.",
+    "p3": "Au‑delà du code, j’ai été gardien de but de soccer intérieur professionnel et j’aime aider d’autres étudiants en informatique. Je crois à l’apprentissage continu et au partage des connaissances.",
+    "highlights": [
+      {
+        "title": "Développement full‑stack",
+        "description": "Création d’applications web complètes du frontend au backend avec des frameworks modernes"
+      },
+      {
+        "title": "Déploiement cloud",
+        "description": "Expertise AWS incluant ECS, Bedrock et la mise en place de pipelines CI/CD"
+      },
+      {
+        "title": "Développement mobile",
+        "description": "Création d’applications mobiles multiplateformes avec React Native et Expo"
+      },
+      {
+        "title": "Multilingue",
+        "description": "Courant en français, anglais et arabe pour une collaboration globale"
+      }
+    ],
+    "imageAlt": "Ziad Affan"
+  },
+  "experience": {
+    "title": "Expérience",
+    "educationAndAchievements": "Formation & Réalisations",
+    "timeline": [
+      {
+        "title": "Analyste‑développeur",
+        "company": "Nurova Inc.",
+        "period": "Mars 2025 - Janvier 2026",
+        "description": [
+          "Développement web full‑stack avec Next.js, TypeScript et Node.js",
+          "Développement d’API avec Fastify et PostgreSQL",
+          "Pipelines CI/CD et déploiement AWS ECS avec Docker",
+          "Intégration IA via AWS Bedrock",
+          "Développement d’applications mobiles avec React Native (Expo)",
+          "Systèmes d’authentification OAuth et intégration Shopify/GraphQL"
+        ],
+        "type": "work"
+      },
+      {
+        "title": "Stagiaire en développement full‑stack",
+        "company": "DevSights",
+        "period": "Août 2024 - Novembre 2024",
+        "description": [
+          "Développement UI moderne avec React.js et TypeScript",
+          "Services REST en Java avec PostgreSQL",
+          "Tests automatisés pour la qualité du code en environnement Agile"
+        ],
+        "type": "work"
+      },
+      {
+        "title": "Stagiaire en développement full‑stack",
+        "company": "Opsens Solution Inc.",
+        "period": "Juin 2024 - Août 2024",
+        "description": [
+          "Applications web interactives avec JavaScript et jQuery",
+          "Serveurs web Python (CherryPy) pour données scientifiques",
+          "Gestion de bases SQL et intégration de systèmes embarqués"
+        ],
+        "type": "work"
+      },
+      {
+        "title": "Stagiaire en développement backend",
+        "company": "Revenu Québec",
+        "period": "Juillet 2023 - Septembre 2023",
+        "description": [
+          "Migration de systèmes hérités",
+          "Services backend en VB et C# (.NET)",
+          "Tests unitaires et d’acceptation avec la plateforme BizTalk"
+        ],
+        "type": "work"
+      }
+    ],
+    "education": [
+      {
+        "title": "DEC en informatique",
+        "company": "Cégep Garneau, Québec",
+        "period": "2022 - 2024",
+        "type": "education"
+      },
+      {
+        "title": "Diplôme d’études secondaires - Sciences générales",
+        "company": "Liban",
+        "period": "2017 - 2019",
+        "type": "education"
+      },
+      {
+        "title": "Bourse d’excellence en programmation",
+        "company": "Cégep Garneau",
+        "period": "Hiver 2023",
+        "type": "achievement"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences techniques",
+    "categories": [
+      { "title": "Langages" },
+      { "title": "Web & mobile" },
+      { "title": "Bases de données" },
+      { "title": "Cloud & DevOps" },
+      { "title": "Tests" },
+      { "title": "Outils & plateformes" },
+      { "title": "Systèmes" },
+      { "title": "Autres" }
+    ]
+  },
+  "projects": {
+    "title": "Projets en vedette",
+    "featuredLabel": "Projet en vedette",
+    "bookingPlatform": "Plateforme de réservation",
+    "liveSite": "Site",
+    "code": "Code",
+    "additionalExperience": "Expérience additionnelle",
+    "cards": {
+      "tutorTitle": "Tuteur en informatique",
+      "tutorOrg": "Cégep Garneau",
+      "tutorPeriod": "Hiver 2023, Hiver 2024, Automne 2024",
+      "goalkeeperTitle": "Gardien de but (soccer) professionnel",
+      "goalkeeperOrg": "2e division intérieur - Liban",
+      "goalkeeperDesc": "Esprit d’équipe, discipline & leadership",
+      "volunteerTitle": "Bénévolat",
+      "volunteerDesc": "Initiatives environnement & éducation"
+    },
+    "list": [
+      {
+        "title": "Trimium - Plateforme pour barbier",
+        "description": "Une plateforme complète de gestion pour salon de barbier avec réservation client et tableau de bord admin.",
+        "features": [
+          "Site client avec système de réservation en ligne",
+          "Tableau de bord admin pour le contenu dynamique et la gestion des rendez‑vous",
+          "Synchronisation Google Calendar API",
+          "Gestion d’images avec Cloudinary"
+        ],
+        "techStack": ["React (Vite)", "Node.js", "Prisma", "Google Calendar API", "Cloudinary", "API REST"],
+        "liveUrl": "https://www.trimium.ca"
+      }
+    ]
+  },
+  "contact": {
+    "whatsNext": "Et maintenant ?",
+    "title": "Entrer en contact",
+    "body": "Je suis actuellement ouvert à de nouvelles opportunités et à des projets intéressants.\nQue vous ayez une question ou que vous vouliez simplement dire bonjour, je vous répondrai !",
+    "info": {
+      "email": "Courriel",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "linkedin": "LinkedIn",
+      "linkedinValue": "Me contacter"
+    },
+    "downloadCv": "Télécharger le CV",
+    "toast": {
+      "sentTitle": "Message envoyé !",
+      "sentBody": "Merci de m’avoir écrit. Je vous répondrai bientôt."
+    }
+  },
+  "footer": {
+    "builtBy": "Design & développement par"
+  },
+  "notFound": {
+    "oops": "Oups ! Page introuvable",
+    "backHome": "Retour à l’accueil"
+  }
+}
+
