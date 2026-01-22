@@ -18,20 +18,6 @@
     <meta name="twitter:description" content="Full-stack developer specializing in Next.js, React, TypeScript, and Node.js. Based in Quebec City, Canada." />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <!-- GitHub Pages SPA fallback: converts /some/path refreshes into /?p=/some/path and restores in-app -->
-    <script type="text/javascript">
-      (function () {
-        var params = new URLSearchParams(window.location.search);
-        var p = params.get("p");
-        if (!p) return;
-
-        // Restore the original path and query, then clean up the URL.
-        var q = params.get("q");
-        var newUrl = p + (q ? ("?" + q) : "") + window.location.hash;
-        window.history.replaceState(null, "", newUrl);
-      })();
-    </script>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
