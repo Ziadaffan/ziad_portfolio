@@ -14,7 +14,7 @@
   "hero": {
     "intro": "Bonjour, je m'appelle",
     "rolePrefix": "Je suis",
-    "typewriterWords": ["Analyste‑développeur", "Développeur full‑stack", "Résolveur de problèmes"],
+    "typewriterWords": "Analyste‑développeur, Développeur full‑stack, Résolveur de problèmes",
     "summary": "Je construis des applications web robustes avec des technologies modernes.\nSpécialisé en Next.js, React, TypeScript et déploiement cloud.",
     "location": "Québec, Canada",
     "cta": {

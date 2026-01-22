@@ -56,21 +56,10 @@ export const Hero = () => {
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-muted-foreground">
               {t("hero.rolePrefix")}{" "}
               <span className="gradient-text">
-                <TypewriterEffect
-                  words={typewriterWords}
-                />
+                {(t("hero.typewriterWords"))}
               </span>
             </h2>
-          </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto mb-4 whitespace-pre-line"
-          >
-            {t("hero.summary")}
-          </motion.p>
+          </motion.div> 
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
