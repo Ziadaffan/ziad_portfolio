@@ -70,7 +70,7 @@ export const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 md:py-32">
+    <section id="contact" className="py-20 md:py-32 bg-muted/30">
       <div className="section-container">
         <motion.div
           ref={ref}

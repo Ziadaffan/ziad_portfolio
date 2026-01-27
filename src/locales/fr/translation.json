@@ -4,6 +4,7 @@
     "experience": "Expérience",
     "skills": "Compétences",
     "projects": "Projets",
+    "recommendations": "Recommandations",
     "contact": "Contact"
   },
   "language": {
@@ -164,6 +165,16 @@
         ],
         "techStack": ["React (Vite)", "Node.js", "Prisma", "Google Calendar API", "Cloudinary", "API REST"],
         "liveUrl": "https://www.trimium.ca"
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Recommandations",
+    "list": [
+      {
+        "name": "Marc-Antoine Dion",
+        "role": "Co-président et CTO, Nurova",
+        "text": "Ce qui m'a particulièrement impressionné, c'est sa capacité d'apprentissage. En quelques mois seulement, Ziad a maîtrisé des technologies et des concepts complexes. Mais ce n'est pas juste qu'il apprend vite, c'est qu'il a une vraie soif d'apprendre. Il pose les bonnes questions, creuse les sujets en profondeur, et n'hésite jamais à sortir de sa zone de confort."
       }
     ]
   },
