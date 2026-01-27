@@ -16,8 +16,9 @@ void i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: "en",
-    supportedLngs: ["en", "fr"],
+    fallbackLng: "fr",
+    lng: "fr",
+    supportedLngs: ["fr", "en"],
     interpolation: { escapeValue: false },
     detection: {
       order: ["localStorage", "navigator"],
