@@ -117,7 +117,7 @@ export const Contact = () => {
                   ))}
                 </div>
 
-                <Button variant="outline" onClick={() => window.open('/CV_Ziad_Affan_amerique_nord.docx', '_blank')} className="w-full gap-2">
+                <Button variant="outline" onClick={() => window.open('/CV_Ziad_Affan.docx', '_blank')} className="w-full gap-2">
                   <Download className="w-4 h-4" />
                   {t("contact.downloadCv")}
                 </Button>

@@ -59,7 +59,7 @@ export const About = () => {
             <div className="md:col-span-2 flex items-center justify-center">
               <div className="w-[230px] h-[300px] rounded-2xl bg-primary/10 border-2 border-primary/20 flex items-center justify-center overflow-hidden">
                 <img
-                  src="/image.jpg"
+                  src="/image.jpeg"
                   alt={t("about.imageAlt")}
                   className="w-full h-full object-cover"
                 />

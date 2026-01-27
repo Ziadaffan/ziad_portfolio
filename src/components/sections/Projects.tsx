@@ -44,18 +44,33 @@ export const Projects = () => {
                 transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
                 className="glass-card rounded-2xl overflow-hidden hover:border-primary/30 transition-all duration-300 group"
               >
-                <div className="grid md:grid-cols-2 gap-6">
-                  {/* Project Image Placeholder */}
-                  <div className="relative h-64 md:h-auto bg-gradient-to-br from-primary/10 via-primary/5 to-transparent flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <Calendar className="w-10 h-10 text-primary" />
+                <div className="flex flex-col">
+                  {/* Project Video */}
+                  <div className="relative w-full h-64 md:h-96 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent rounded-lg overflow-hidden">
+                    {project.title === "Trimium - Barber Shop Platform" ? (
+                      <video
+                        className="w-full h-full object-cover"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                      >
+                        <source src="/barbershop.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    ) : (
+                      <div className="h-full flex items-center justify-center">
+                        <div className="text-center">
+                          <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                            <Calendar className="w-10 h-10 text-primary" />
+                          </div>
+                          <p className="text-sm text-muted-foreground">{t("projects.bookingPlatform")}</p>
+                        </div>
+                        {/* Decorative elements */}
+                        <div className="absolute top-4 right-4 w-24 h-24 bg-primary/5 rounded-full blur-2xl" />
+                        <div className="absolute bottom-4 left-4 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
                       </div>
-                      <p className="text-sm text-muted-foreground">{t("projects.bookingPlatform")}</p>
-                    </div>
-                    {/* Decorative elements */}
-                    <div className="absolute top-4 right-4 w-24 h-24 bg-primary/5 rounded-full blur-2xl" />
-                    <div className="absolute bottom-4 left-4 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
+                    )}
                   </div>
 
                   {/* Project Details */}

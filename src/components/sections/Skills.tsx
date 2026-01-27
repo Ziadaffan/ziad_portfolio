@@ -14,8 +14,8 @@ const skillCategories: SkillCategory[] = [
     skills: ["HTML", "CSS", "JavaScript", "TypeScript", "Python", "Java", "C#", "Kotlin", "VB"],
   },
   {
-    title: "Web & Mobile",
-    skills: ["Next.js", "React.js", "React Native", "Expo", "Vue.js", "Node.js", "Fastify", "Django", "ASP.NET", "ASP.NET MVC"],
+    title: "Web, Mobile & Desktop",
+    skills: ["Next.js", "React.js", "React Native", "Expo", "Vue.js", "Node.js", "Express.js", "NestJS", "Fastify", "Django", "ASP.NET", "WPF (C#)"],
   },
   {
     title: "Databases",
@@ -39,7 +39,7 @@ const skillCategories: SkillCategory[] = [
   },
   {
     title: "Other",
-    skills: ["OAuth", "RESTful APIs", "Software Design", "WPF (C#)", "Shopify", "GraphQL"],
+    skills: ["OAuth", "RESTful APIs", "Shopify", "GraphQL"],
   },
 ];
 
