@@ -47,7 +47,7 @@ export const Projects = () => {
                 <div className="flex flex-col">
                   {/* Project Video */}
                   <div className="relative w-full h-64 md:h-96 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent rounded-lg overflow-hidden">
-                    {project.title === "Trimium - Barber Shop Platform" ? (
+                    {project.title.startsWith("Trimium") ? (
                       <video
                         className="w-full h-full object-cover"
                         autoPlay
